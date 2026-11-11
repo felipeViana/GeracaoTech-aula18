@@ -1,4 +1,3 @@
-
 import 'dotenv/config';
 import pg from 'pg';
 
@@ -9,4 +8,3 @@ const pool = new Pool({
 });
 
 export default pool;
-
