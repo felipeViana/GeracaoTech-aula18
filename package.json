@@ -1,0 +1,27 @@
+{
+  "name": "projeto-devops",
+  "version": "1.0.0",
+  "description": "projeto para aulas devops",
+  "main": "cypress.config.js",
+  "scripts": {
+    "start:frontend": "http-server ./frontend -p 5500 -a 127.0.0.1 -c-1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeViana/GeracaoTech-aula18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/felipeViana/GeracaoTech-aula18/issues"
+  },
+  "homepage": "https://github.com/felipeViana/GeracaoTech-aula18#readme",
+  "devDependencies": {
+    "cypress": "^16.3.0",
+    "http-server": "^14.1.1"
+  }
+}
