@@ -2,5 +2,8 @@ export function formatarPreco(valor) {
   return new Intl.NumberFormat('pt-BR', {
     style: 'currency',
     currency: 'BRL'
-  }).format(Number(valor));
+  })
+    .format(Number(valor))
+    .replace(/\s+/g, ' ')
+    .trim();
 }
